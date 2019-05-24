@@ -1,0 +1,13 @@
+h3.wel{
+    font-size: 222%;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+
+div#container{
+    position: absolute;
+    left: 25%;
+    top: 30%;
+}

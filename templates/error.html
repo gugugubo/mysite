@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    首页|错误
+{% endblock %}  <!--网站的title-->
+
+{% block header %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+{% endblock %}  <!--导入css文件-->
+
+{% block nav_home_active %}active{% endblock %}           <!--设置选中样式-->
+
+{% block content %}
+    {{ message }}<a href="{{ redirect_to }}">返回</a>
+{% endblock %}              <!--具体显示内容-->
